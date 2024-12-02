@@ -20,4 +20,13 @@ Cargo.lock
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-inputs/
+**/inputs/*
+
+# Zig files
+.zig-cache/
+**/.zig-cache/*
+*.zon
+*.o
+*.ll
+
+*.txt
